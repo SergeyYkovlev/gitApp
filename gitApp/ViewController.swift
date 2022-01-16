@@ -17,14 +17,28 @@ class ViewController: UIViewController {
     
     @IBAction func showAlert() {
         
-        let alert = UIAlertController(title: "Hello world", message: "This is ny first app!", preferredStyle: .alert)
+        let alert = UIAlertController(title: "Egor privet", message: "smotri chto sdelal!", preferredStyle: .alert)
         
-        let action = UIAlertAction(title: "Awesome", style: .default, handler: nil)
+        let action = UIAlertAction(title: "poka", style: .default, handler: nil)
      
         alert.addAction(action)
         
         present(alert, animated: true, completion: nil)
     }
 
+    
+    @IBAction func AnswerButtonA(sender: UIButton)
+    {
+        //sender is the button that was pressed
+        sender.setTitle("This is example text one", for:[])
+        sender.setTitle("hellow world", for: .normal )
+        
+    }
+    
+    /*@IBAction func goVC(_ sender: Any )
+     {
+         performSegue(withIdentifier: "goVC", sender: nil)
+        
+    }*/
 }
 

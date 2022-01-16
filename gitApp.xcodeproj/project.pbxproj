@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C7B4361278C367700A7AAAC /* ViewControllerSecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7B4360278C367700A7AAAC /* ViewControllerSecondScreen.swift */; };
 		0CA90A9F276C719D0058E7BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA90A9E276C719D0058E7BB /* AppDelegate.swift */; };
 		0CA90AA1276C719D0058E7BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA90AA0276C719D0058E7BB /* SceneDelegate.swift */; };
 		0CA90AA3276C719D0058E7BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA90AA2276C719D0058E7BB /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C7B4360278C367700A7AAAC /* ViewControllerSecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSecondScreen.swift; sourceTree = "<group>"; };
 		0CA90A9B276C719D0058E7BB /* gitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA90A9E276C719D0058E7BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CA90AA0276C719D0058E7BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				0CA90A9E276C719D0058E7BB /* AppDelegate.swift */,
 				0CA90AA0276C719D0058E7BB /* SceneDelegate.swift */,
 				0CA90AA2276C719D0058E7BB /* ViewController.swift */,
+				0C7B4360278C367700A7AAAC /* ViewControllerSecondScreen.swift */,
 				0CA90AA4276C719D0058E7BB /* Main.storyboard */,
 				0CA90AA7276C719F0058E7BB /* Assets.xcassets */,
 				0CA90AA9276C719F0058E7BB /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C7B4361278C367700A7AAAC /* ViewControllerSecondScreen.swift in Sources */,
 				0CA90AA3276C719D0058E7BB /* ViewController.swift in Sources */,
 				0CA90A9F276C719D0058E7BB /* AppDelegate.swift in Sources */,
 				0CA90AA1276C719D0058E7BB /* SceneDelegate.swift in Sources */,
